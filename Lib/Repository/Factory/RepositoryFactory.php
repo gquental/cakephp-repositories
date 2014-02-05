@@ -1,5 +1,5 @@
 <?php
-App::uses('RepositoryException', 'Lib/Repository/Exception');
+App::uses('RepositoryException', 'Repositories.Lib/Repository/Exception');
 
 class RepositoryFactory {
 
