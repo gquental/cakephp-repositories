@@ -1,0 +1,22 @@
+{
+    "name": "gquental/cakephp-repositories",
+    "description": "CakePHP repository feature",
+    "type": "cakephp-plugin",
+    "homepage": "https://github.com/gquental/cakephp-repositories",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme Quental",
+            "email": "guilherme@quent.al"
+        }
+    ],
+    "require": {
+        "composer/installers": "1.0.*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "develop"
+        },
+        "installer-name": "Repositories"
+    }
+}
