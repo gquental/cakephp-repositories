@@ -1,0 +1,14 @@
+{
+    "name": "gquental/cakephp-repositories",
+    "description": "CakePHP repository feature",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme Quental",
+            "email": "guilherme@quent.al"
+        }
+    ],
+    "require": {
+
+    }
+}
