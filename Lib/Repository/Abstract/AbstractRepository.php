@@ -5,6 +5,7 @@ class AbstractRepository {
 
 	protected $_modelName;
 	protected $_model;
+    protected $_overwriteModelName;
 
 	public function __construct() {
 		$this->_modelName = $this->__getModelName();
@@ -29,6 +30,10 @@ class AbstractRepository {
 	}
 
 	private function __getModelName() {
+        if ($this->_overwriteModelName) {
+            return $this->_overwriteModelName;
+        }
+
 		return str_replace('Repository', '', get_class($this));
 	}
 
